@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Swastha-Sebok-Covid19/precache-manifest.10a704f09236348c0508f50de5faf38a.js"
+  "/Swastha-Sebok-Covid19/precache-manifest.4fb7f0148cf3e3f691ac13dde49aa7a8.js"
 );
 
 self.addEventListener('message', (event) => {

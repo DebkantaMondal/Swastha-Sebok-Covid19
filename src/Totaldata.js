@@ -48,7 +48,7 @@ componentDidMount(){
           
             
                 
-
+            <div class="table-responsive">
             <table class="table">
               <thead>
                 <tr>
@@ -58,13 +58,16 @@ componentDidMount(){
                   <th scope="col" class="text-danger">Deceased</th>
                 </tr>
               </thead>
+              <tbody>
               <tr>
                 <td scope="col"><button class="btn btn-primary mr-2">{items.active}</button></td>
                 <td scope="col"><button class="btn btn-warning mr-2 text-dark">{items.confirmed}<span class="badge badge-light ml-2 text-danger">{items.deltaconfirmed} &#x21E7;</span></button></td>
                 <td scope="col"><button class="btn btn-success mr-2">{items.recovered}<span class="badge badge-light ml-2 text-success">{items.deltarecovered} &#x21E7;</span></button></td>
                 <td scope="col"><button class="btn btn-danger mr-2">{items.deaths}<span class="badge badge-light ml-2 text-danger">{items.deltadeaths} &#x21E7;</span></button></td>
               </tr>
+              </tbody>
             </table>
+            </div>
             
 
             </div>

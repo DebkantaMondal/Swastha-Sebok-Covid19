@@ -42,10 +42,7 @@ componentDidMount(){
             <div class="card-header bg-dark text-light">
               COVID Updates (STATE WISE)
             </div>
-            <div class="card-footer text-success">
-             Last Updated at {lastUpdate}
-            </div>
-          </div>
+            <div class="card-body text-center">
           <div class="table-responsive">
             <table class="table">
               <thead>
@@ -63,18 +60,16 @@ componentDidMount(){
                 return(
                     
                     //console.log(dict.state)
-                <div>
+                
+                
                 <tr>
-                    <td scope="col"><button class="btn btn-dark mr-2">{dict.state}</button></td>
+                    <td scope="col"><button class="btn btn-dark mr-1">{dict.state}</button></td>
+                    <td scope="col"><button class="btn btn-primary mr-1">{dict.active}</button></td>
+                    <td scope="col"><button class="btn btn-warning mr-1 text-dark">{dict.confirmed}<span class="badge badge-light ml-2 text-danger">{dict.deltaconfirmed} &#x21E7;</span></button></td>
+                    <td scope="col"><button class="btn btn-success mr-1">{dict.recovered}<span class="badge badge-light ml-2 text-success">{dict.deltarecovered} &#x21E7;</span></button></td>
+                    <td scope="col"><button class="btn btn-danger mr-1">{dict.deaths}<span class="badge badge-light ml-2 text-danger">{dict.deltadeaths} &#x21E7;</span></button></td>
                 </tr>
-                <tr>
-                    
-                    <td scope="col"><button class="btn btn-primary mr-2">{dict.active}</button></td>
-                    <td scope="col"><button class="btn btn-warning mr-2 text-dark">{dict.confirmed}<span class="badge badge-light ml-2 text-danger">{dict.deltaconfirmed} &#x21E7;</span></button></td>
-                    <td scope="col"><button class="btn btn-success mr-2">{dict.recovered}<span class="badge badge-light ml-2 text-success">{dict.deltarecovered} &#x21E7;</span></button></td>
-                    <td scope="col"><button class="btn btn-danger mr-2">{dict.deaths}<span class="badge badge-light ml-2 text-danger">{dict.deltadeaths} &#x21E7;</span></button></td>
-                </tr>
-                </div>
+                
                     
                     )}
                 })}
@@ -83,6 +78,11 @@ componentDidMount(){
               
               </tbody>
             </table>
+            </div>
+            </div>
+            <div class="card-footer text-success">
+             Last Updated at {lastUpdate}
+            </div>
             </div>
             </div>
             

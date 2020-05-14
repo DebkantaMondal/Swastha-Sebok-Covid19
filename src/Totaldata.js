@@ -40,10 +40,7 @@ componentDidMount(){
             <div class="card-header bg-dark text-light">
               COVID Updates (INDIA)
             </div>
-            <div class="card-footer text-success">
-             Last Updated at {items.lastupdatedtime}
-            </div>
-            </div>
+            <div class="card-body text-center">
 
           
             
@@ -67,6 +64,12 @@ componentDidMount(){
               </tr>
               </tbody>
             </table>
+            </div>
+            </div>
+            <div class="card-footer text-success">
+             Last Updated at {items.lastupdatedtime}
+            </div>
+            
             </div>
             
 

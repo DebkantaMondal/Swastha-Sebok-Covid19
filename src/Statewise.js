@@ -38,7 +38,7 @@ componentDidMount(){
       } else {
         return (
           <div class="container">
-            <div class="card text-center mt-5 mb-3 ml-5 mr-5 shadow bg-white">
+            <div class="card text-center mt-5 mb-3 ml-1 mr-1 shadow bg-white">
             <div class="card-header bg-dark text-light">
               COVID Updates (STATE WISE)
             </div>

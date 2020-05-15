@@ -57,10 +57,10 @@ componentDidMount(){
               </thead>
               <tbody>
               <tr>
-                <td scope="col"><button class="btn btn-primary mr-1">{items.active}</button></td>
-                <td scope="col"><button class="btn btn-warning mr-1 text-dark">{items.confirmed}<span class="badge badge-light ml-2 text-danger">{items.deltaconfirmed} &#x21E7;</span></button></td>
-                <td scope="col"><button class="btn btn-success mr-1">{items.recovered}<span class="badge badge-light ml-2 text-success">{items.deltarecovered} &#x21E7;</span></button></td>
-                <td scope="col"><button class="btn btn-danger mr-1">{items.deaths}<span class="badge badge-light ml-2 text-danger">{items.deltadeaths} &#x21E7;</span></button></td>
+                <td scope="col"><p class="text-primary mr-1 font-weight-bold">{items.active}</p></td>
+                <td scope="col"><p class="text-warning mr-1 font-weight-bold">{items.confirmed}<span class="badge badge-light ml-2 text-danger">{items.deltaconfirmed} &#x21E7;</span></p></td>
+                <td scope="col"><p class="text-success mr-1 font-weight-bold">{items.recovered}<span class="badge badge-light ml-2 text-success">{items.deltarecovered} &#x21E7;</span></p></td>
+                <td scope="col"><p class="text-danger mr-1 font-weight-bold">{items.deaths}<span class="badge badge-light ml-2 text-danger">{items.deltadeaths} &#x21E7;</span></p></td>
               </tr>
               </tbody>
             </table>

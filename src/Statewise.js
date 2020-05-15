@@ -59,7 +59,7 @@ componentDidMount(){
                 
                 <div>
                 <tr>
-                    <td scope="col" colSpan="4"><button class="btn btn-dark mr-1">{dict.state}</button></td>
+                    <td scope="col" colSpan="4" style="bg-dark font-weight-bold"><button class="btn btn-dark mr-1">{dict.state}</button></td>
                 </tr>
                 <tr>
                     <th scope="col" class="text-primary">Active</th>
@@ -68,10 +68,10 @@ componentDidMount(){
                     <th scope="col" class="text-danger">Deceased</th>
                 </tr>
                 <tr>
-                    <td scope="col"><button class="btn btn-primary mr-1">{dict.active}</button></td>
-                    <td scope="col"><button class="btn btn-warning mr-1 text-dark">{dict.confirmed}<span class="badge badge-light ml-2 text-danger">{dict.deltaconfirmed} &#x21E7;</span></button></td>
-                    <td scope="col"><button class="btn btn-success mr-1">{dict.recovered}<span class="badge badge-light ml-2 text-success">{dict.deltarecovered} &#x21E7;</span></button></td>
-                    <td scope="col"><button class="btn btn-danger mr-1">{dict.deaths}<span class="badge badge-light ml-2 text-danger">{dict.deltadeaths} &#x21E7;</span></button></td>
+                    <td scope="col"><p class="text-primary font-weight-bold">{dict.active}</p></td>
+                    <td scope="col"><p class="text-warning font-weight-bold">{dict.confirmed}<span class="badge badge-light ml-2 text-danger">{dict.deltaconfirmed} &#x21E7;</span></p></td>
+                    <td scope="col"><p class="text-success font-weight-bold">{dict.recovered}<span class="badge badge-light ml-2 text-success">{dict.deltarecovered} &#x21E7;</span></p></td>
+                    <td scope="col"><p class="text-danger font-weight-bold">{dict.deaths}<span class="badge badge-light ml-2 text-danger">{dict.deltadeaths} &#x21E7;</span></p></td>
                 </tr>
                 </div>
                 

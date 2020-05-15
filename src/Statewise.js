@@ -58,14 +58,14 @@ componentDidMount(){
                    // console.log(dict.state)
                 
                     <div> 
-                <tr>
+                <tr class="table-dark">
                     <td scope="col" colSpan="4"><button class="btn btn-dark mr-1">{dict.state}</button></td>
                 </tr>
                 <tr>
-                    <th scope="col" class="text-primary">Active</th>
-                    <th scope="col" class="text-warning">Confirmed</th>
-                    <th scope="col" class="text-success">Recovered</th>
-                    <th scope="col" class="text-danger">Deceased</th>
+                    <td scope="col" class="text-primary">Active</td>
+                    <td scope="col" class="text-warning">Confirmed</td>
+                    <td scope="col" class="text-success">Recovered</td>
+                    <td scope="col" class="text-danger">Deceased</td>
                 </tr>
                 <tr>
                     <td scope="col"><button class="btn btn-primary mr-1">{dict.active}</button></td>

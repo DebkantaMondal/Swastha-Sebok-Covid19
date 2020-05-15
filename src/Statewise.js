@@ -38,8 +38,8 @@ componentDidMount(){
       } else {
         return (
           <div class="container">
-            <div class="card text-center mt-5 mb-3 ml-1 mr-1 shadow bg-white">
-            <div class="card-header bg-dark text-light">
+            <div class="card text-center mt-5 mb-3 ml-1 mr-1 shadow bg-white border border-dark">
+            <div class="card-header bg-danger font-weight-bold text-light">
               COVID Updates (STATE WISE)
             </div>
             <div class="card-body text-center">
@@ -48,7 +48,7 @@ componentDidMount(){
             <table class="table">
               <thead>
                 <tr>
-                  <th scope="col" class="text-dark" colSpan="4">Name of State</th>
+                  <th scope="col" class="text-dark font-weight-bold">Name of State</th>
                 </tr>
               </thead>
               <tbody>
@@ -58,9 +58,10 @@ componentDidMount(){
                    
                    // console.log(dict.state)
                 
-                    <div> 
-                <tr class="table-dark">
-                    <td scope="col" colSpan="4"><button class="btn btn-dark mr-1">{dict.state}</button></td>
+                    <div class="justify-content-center"> 
+                    <center>
+                <tr class="table-white">
+                    <td colSpan="4"><button class="btn btn-white text-dark font-weight-bold mr-1">{dict.state}</button></td>
                 </tr>
                 <tr>
                     <td scope="col" class="text-primary">Active</td>
@@ -69,11 +70,12 @@ componentDidMount(){
                     <td scope="col" class="text-danger">Deceased</td>
                 </tr>
                 <tr>
-                    <td scope="col"><button class="btn btn-primary mr-1">{dict.active}</button></td>
-                    <td scope="col"><button class="btn btn-warning mr-1 text-dark">{dict.confirmed}<span class="badge badge-light ml-2 text-danger">{dict.deltaconfirmed} &#x21E7;</span></button></td>
-                    <td scope="col"><button class="btn btn-success mr-1">{dict.recovered}<span class="badge badge-light ml-2 text-success">{dict.deltarecovered} &#x21E7;</span></button></td>
-                    <td scope="col"><button class="btn btn-danger mr-1">{dict.deaths}<span class="badge badge-light ml-2 text-danger">{dict.deltadeaths} &#x21E7;</span></button></td>
+                    <td scope="col"><p class="text-primary mr-1 font-weight-bold">{dict.active}</p></td>
+                    <td scope="col"><p class="text-warning mr-1 font-weight-bold">{dict.confirmed}<span class="badge badge-light ml-2 text-danger">{dict.deltaconfirmed} &#x21E7;</span></p></td>
+                    <td scope="col"><p class="text-success mr-1 font-weight-bold">{dict.recovered}<span class="badge badge-light ml-2 text-success">{dict.deltarecovered} &#x21E7;</span></p></td>
+                    <td scope="col"><p class="text-danger mr-1 font-weight-bold">{dict.deaths}<span class="badge badge-light ml-2 text-danger">{dict.deltadeaths} &#x21E7;</span></p></td>
                 </tr>
+                </center>
                 </div>
                 
                     
@@ -88,7 +90,7 @@ componentDidMount(){
             </div>
             </center>
             </div>
-            <div class="card-footer text-success">
+            <div class="card-footer bg-success font-weight-bold text-white">
              Last Updated at {lastUpdate}
             </div>
             </div>
@@ -98,5 +100,7 @@ componentDidMount(){
       }
     }
   }
+
+;
 
 export default Statewise;

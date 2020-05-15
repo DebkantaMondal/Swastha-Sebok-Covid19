@@ -1,14 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Route, Link, BrowserRouter, Switch } from 'react-router-dom'
+import About from './About'
+
+
 
 function Header(){
     return(
         <div className="App">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Swastha Sebok</a>
+            <nav class="navbar navbar-expand-lg text-primary shadow-lg">
+  <a class="navbar-brand font-weight-bold" href="#">Swastha Sebok</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler text-primary">Menu</span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -31,7 +35,7 @@ function Header(){
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Helpline</a>
+        <a class="nav-link" href="#">Helpline</a>
       </li>
     </ul>
   </div>

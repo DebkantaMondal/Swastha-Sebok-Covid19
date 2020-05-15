@@ -36,11 +36,11 @@ componentDidMount(){
       } else {
         return (
           <div class="container">
-            <div class="card text-center mt-5 mb-3 ml-1 mr-1 shadow bg-white">
-            <div class="card-header bg-dark text-light">
+            <div class="card mt-5 mb-2 ml-1 mr-1 shadow-lg border border-dark mb-5 bg-light rounded">
+            <div class="card-header bg-primary text-light font-weight-bold">
               COVID Updates (INDIA)
             </div>
-            <div class="card-body text-center">
+            <div class="card-body text-center bg-white">
 
           
             
@@ -57,16 +57,16 @@ componentDidMount(){
               </thead>
               <tbody>
               <tr>
-                <td scope="col"><button class="btn btn-primary mr-1">{items.active}</button></td>
-                <td scope="col"><button class="btn btn-warning mr-1 text-dark">{items.confirmed}<span class="badge badge-light ml-2 text-danger">{items.deltaconfirmed} &#x21E7;</span></button></td>
-                <td scope="col"><button class="btn btn-success mr-1">{items.recovered}<span class="badge badge-light ml-2 text-success">{items.deltarecovered} &#x21E7;</span></button></td>
-                <td scope="col"><button class="btn btn-danger mr-1">{items.deaths}<span class="badge badge-light ml-2 text-danger">{items.deltadeaths} &#x21E7;</span></button></td>
+                <td scope="col"><p class="text-primary font-weight-bold">{items.active}</p></td>
+                <td scope="col"><p class="text-warning font-weight-bold">{items.confirmed}<span class="badge badge-light ml-2 text-danger">{items.deltaconfirmed} &#x21E7;</span></p></td>
+                <td scope="col"><p class="text-success font-weight-bold">{items.recovered}<span class="badge badge-light ml-2 text-success">{items.deltarecovered} &#x21E7;</span></p></td>
+                <td scope="col"><p class="text-danger font-weight-bold">{items.deaths}<span class="badge badge-light ml-2 text-danger">{items.deltadeaths} &#x21E7;</span></p></td>
               </tr>
               </tbody>
             </table>
             </div>
             </div>
-            <div class="card-footer text-success">
+            <div class="card-footer text-black font-weight-bold bg-warning">
              Last Updated at {items.lastupdatedtime}
             </div>
             

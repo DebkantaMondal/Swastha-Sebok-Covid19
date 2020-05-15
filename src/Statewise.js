@@ -47,7 +47,7 @@ componentDidMount(){
             <table class="table">
               <thead>
                 <tr>
-                  <th scope="col" class="text-dark">Name of State</th>
+                  <th scope="col" class="text-dark" colSpan="4">Name of State</th>
                 </tr>
               </thead>
               <tbody>
@@ -59,7 +59,7 @@ componentDidMount(){
                 
                 <div>
                 <tr>
-                    <td scope="col"><button class="btn btn-dark mr-1">{dict.state}</button></td>
+                    <td scope="col" colSpan="4"><button class="btn btn-dark mr-1">{dict.state}</button></td>
                 </tr>
                 <tr>
                     <th scope="col" class="text-primary">Active</th>

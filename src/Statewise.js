@@ -54,12 +54,12 @@ componentDidMount(){
               { items.map(function(dict,index){
                   if(index>=1 && index<=items.length){
                 return(
-                    
-                    //console.log(dict.state)
+                   
+                   // console.log(dict.state)
                 
-                <div>
+                    <div> 
                 <tr>
-                    <td scope="col" colSpan="4" style="bg-dark font-weight-bold"><button class="btn btn-dark mr-1">{dict.state}</button></td>
+                    <td scope="col" colSpan="4"><button class="btn btn-dark mr-1">{dict.state}</button></td>
                 </tr>
                 <tr>
                     <th scope="col" class="text-primary">Active</th>

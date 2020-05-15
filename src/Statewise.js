@@ -42,7 +42,8 @@ componentDidMount(){
             <div class="card-header bg-dark text-light">
               COVID Updates (STATE WISE)
             </div>
-            <div class="card-body text-center">
+            <div class="card-body text-center justify-content-center">
+              <center>
           <div class="table-responsive">
             <table class="table">
               <thead>
@@ -83,7 +84,9 @@ componentDidMount(){
               
               </tbody>
             </table>
+            
             </div>
+            </center>
             </div>
             <div class="card-footer text-success">
              Last Updated at {lastUpdate}

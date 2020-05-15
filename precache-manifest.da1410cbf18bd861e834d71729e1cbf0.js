@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f695916c9289367589e0bd1f34255030",
+    "revision": "8cf39e3198055c30ae43c129769e51dc",
     "url": "/Swastha-Sebok-Covid19/index.html"
   },
   {
-    "revision": "833325c2db4afadecd13",
+    "revision": "ad934bb8ddf313434845",
     "url": "/Swastha-Sebok-Covid19/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Swastha-Sebok-Covid19/static/js/2.af44b901.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "833325c2db4afadecd13",
-    "url": "/Swastha-Sebok-Covid19/static/js/main.f1342dad.chunk.js"
+    "revision": "ad934bb8ddf313434845",
+    "url": "/Swastha-Sebok-Covid19/static/js/main.96d677b8.chunk.js"
   },
   {
     "revision": "82254217d71ff3b3e46b",

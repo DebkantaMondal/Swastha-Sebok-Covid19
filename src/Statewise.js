@@ -42,7 +42,7 @@ componentDidMount(){
             <div class="card-header bg-dark text-light">
               COVID Updates (STATE WISE)
             </div>
-            <div class="card-body text-center justify-content-center">
+            <div class="card-body text-center">
               <center>
           <div class="table-responsive">
             <table class="table">

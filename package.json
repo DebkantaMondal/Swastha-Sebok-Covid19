@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://debkantamondal.github.io/Swastha-Sebok-Covid19",
+  "aboutpage": "https://debkantamondal.github.io/about",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

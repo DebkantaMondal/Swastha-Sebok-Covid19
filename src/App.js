@@ -21,7 +21,7 @@ function App() {
     <Header/>
     <Switch>
       <Route path="/Swastha-Sebok-Covid19" exact component={Home}></Route>
-      <Route path="/Swastha-Sebok-Covid19/about" component={About}></Route>
+      <Route path="/Swastha-Sebok-Covid19/about" exact component={About}></Route>
     </Switch>
     <Footer/>
     

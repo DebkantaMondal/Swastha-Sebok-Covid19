@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Link} from 'react-router-dom';
 
 function Footer(){
     return(
@@ -10,10 +11,11 @@ function Footer(){
             <div class="card-body text-center bg-white">
                 
                     <p>Data Source : <a href="https://github.com/covid19india/api">https://github.com/covid19india/api</a></p>
-                    <p>Want to Collaborate in Open Project ? <a href="#">Join this Group</a></p>
+                    <p>Want to Collaborate in Open Project ? <a href="https://t.me/swasthaSebok">Join this Group</a></p>
                     <p>Open Sourced in <a href="https://github.com/DebkantaMondal/Swastha-Sebok-Covid19" target="blank">Github</a></p>
                     <p>View Updates on Your Messenger <a href="#">Accept Bot</a></p>
-                    <p>Data Accuracy : Given Soon</p>
+                    <p>Data Accuracy : <Link to="/Swastha-Sebok-Covid19/about">Check Here</Link></p>
+                    
                     
             </div>
             <div class="card-footer text-white font-weight-bold bg-primary">

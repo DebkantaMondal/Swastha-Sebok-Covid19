@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Swastha-Sebok-Covid19/static/css/main.4ba4178f.chunk.css",
-    "main.js": "/Swastha-Sebok-Covid19/static/js/main.f3aec89f.chunk.js",
-    "main.js.map": "/Swastha-Sebok-Covid19/static/js/main.f3aec89f.chunk.js.map",
+    "main.js": "/Swastha-Sebok-Covid19/static/js/main.efafa7ae.chunk.js",
+    "main.js.map": "/Swastha-Sebok-Covid19/static/js/main.efafa7ae.chunk.js.map",
     "runtime-main.js": "/Swastha-Sebok-Covid19/static/js/runtime-main.ddf64bbb.js",
     "runtime-main.js.map": "/Swastha-Sebok-Covid19/static/js/runtime-main.ddf64bbb.js.map",
     "static/js/2.7be7cee1.chunk.js": "/Swastha-Sebok-Covid19/static/js/2.7be7cee1.chunk.js",
     "static/js/2.7be7cee1.chunk.js.map": "/Swastha-Sebok-Covid19/static/js/2.7be7cee1.chunk.js.map",
     "index.html": "/Swastha-Sebok-Covid19/index.html",
-    "precache-manifest.f079ddd6ea7fb79e7582318da7a2fb71.js": "/Swastha-Sebok-Covid19/precache-manifest.f079ddd6ea7fb79e7582318da7a2fb71.js",
+    "precache-manifest.ea8e376b9ede2afa686c17451bf1d759.js": "/Swastha-Sebok-Covid19/precache-manifest.ea8e376b9ede2afa686c17451bf1d759.js",
     "service-worker.js": "/Swastha-Sebok-Covid19/service-worker.js",
     "static/css/main.4ba4178f.chunk.css.map": "/Swastha-Sebok-Covid19/static/css/main.4ba4178f.chunk.css.map",
     "static/js/2.7be7cee1.chunk.js.LICENSE.txt": "/Swastha-Sebok-Covid19/static/js/2.7be7cee1.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.ddf64bbb.js",
     "static/js/2.7be7cee1.chunk.js",
     "static/css/main.4ba4178f.chunk.css",
-    "static/js/main.f3aec89f.chunk.js"
+    "static/js/main.efafa7ae.chunk.js"
   ]
 }

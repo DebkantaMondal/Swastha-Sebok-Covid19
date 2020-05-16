@@ -17,7 +17,9 @@ function Footer(){
                     
             </div>
             <div class="card-footer text-white font-weight-bold bg-primary">
-             This is a Project developed by Debkanta Mondal [<a class="text-white" href="#" target="_blank">Open Development Project</a>]
+             This is a Project developed by Debkanta Mondal [<a class="text-white" href="#" target="_blank">Open Development Project</a>]<br/>
+             <br/><i>Version </i><br/>
+             <button class="btn btn-success border border-white text-white">v1.0.1</button>
             </div>
             </center>
             </div>

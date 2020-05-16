@@ -5,10 +5,10 @@ import {Line} from 'react-chartjs-2';
 
 
 
-  const dateset = []
-  const dailyconfirmedset = []
-  const dailyrecoveredset = []
-  const dailydeceasedset = []
+  //const dateset = []
+  //const dailyconfirmedset = []
+  //const dailyrecoveredset = []
+  //const dailydeceasedset = []
 
   class Minigraph extends React.Component{
       constructor(props){

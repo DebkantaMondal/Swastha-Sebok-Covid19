@@ -21,7 +21,7 @@ function Header(){
         <Link class="nav-link" to="/Swastha-Sebok-Covid19">Home <span class="sr-only">(current)</span></Link>
       </li>
       <li class="nav-item">
-        <Link class="nav-link" to="/Swastha-Sebok-Covid19/about">About</Link>
+        <Link class="nav-link" to="/about">About</Link>
       </li>
       
       <li class="nav-item dropdown">

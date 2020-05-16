@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Route, Link, BrowserRouter, Switch } from 'react-router-dom'
-import About from './About'
+import {Link} from 'react-router-dom';
 
 
 
 function Header(){
     return(
+      
         <div className="App">
             <nav class="navbar navbar-expand-lg text-primary shadow-lg">
   <a class="navbar-brand font-weight-bold" href="#">Swastha Sebok</a>
@@ -18,11 +18,12 @@ function Header(){
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <Link class="nav-link" to="/Swastha-Sebok-Covid19">Home <span class="sr-only">(current)</span></Link>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <Link class="nav-link" to="Swastha-Sebok-Covid19/about">About</Link>
       </li>
+      
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Services
@@ -41,6 +42,7 @@ function Header(){
   </div>
 </nav>
         </div>
+        
     );
 }
 

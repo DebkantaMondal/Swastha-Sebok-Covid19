@@ -1,22 +1,35 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Totaldata from './Totaldata';
-import Statewise from './Statewise';
-import Minigraph from './components/Minigraph';
-import Linedata from './components/Linedata';
+import Header from './Header';
+import Footer from './Footer';
+import Home from './Home';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import About from './About';
 
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      
-    <Totaldata/>
-    <Minigraph/>
-    <Linedata/>
-    <Statewise/>
+    <Header/>
+    <Switch>
+      <Route path="/Swastha-Sebok-Covid19/" exact component={Home}></Route>
+      <Route path="/Swastha-Sebok-Covid19/about" component={About}></Route>
+    </Switch>
+    <Footer/>
+    
     </div>
+    </Router>
   );
 }
+
+
 
 export default App;
